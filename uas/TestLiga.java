@@ -5,7 +5,7 @@ public class TestLiga {
 
     public static void main(String[] args) {
 
-        Liga INDONESIA = new Liga("ISL");
+        Liga INDONESIA = new Liga("INDONESIA");
 
         Divisi ISL = new Divisi("Divisi ISL");
         Divisi Utama = new Divisi("Utama");
@@ -63,7 +63,7 @@ public class TestLiga {
         System.out.println("\n");
 
         System.out.println("Liga : " + INDONESIA.getNamaLiga());
-        System.out.println("Klub : " + Utama.getDaftarKlub());
+        System.out.println("Klub : " + INDONESIA.getDaftarKlub());
         System.out.println("\n");
 }
 }
